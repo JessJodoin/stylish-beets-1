@@ -39,14 +39,14 @@ h2 {
   list-style-type: none;
 }
 
-.nav a {
+a {
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   text-decoration: none;
   color: #8f2440;
 }
 
-.nav a:hover {
+a:hover {
   text-decoration: underline;
   color: #3f1622;
 }
@@ -71,7 +71,7 @@ blockquote p strong {
 }
 
 .cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 #common + ol {
@@ -88,14 +88,52 @@ dt {
 
 aside ul {
   list-style-type: circle;
+  font-size: .8rem;
 }
 
-footer .footer-link {
+footer small {
+  font-size: .8rem;
+}
+
+footer a {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
   text-decoration: none;
   color: #8f2440;
 }
 
-footer .footer-link:hover {
+footer a:hover {
   text-decoration: underline;
   color: #3f1622;
+}
+
+/* Added to make screenshot match = 2% */
+
+h1 {
+  margin-top: .63em;
+  margin-bottom: .73em;
+}
+
+#common,
+#tags {
+  margin-top: .8em;
+  margin-bottom: .87em;
+}
+
+#nutritional {
+  margin-top: .78em;
+  margin-bottom: .87em;
+}
+
+figure {
+  margin-top: 1.2em;
+}
+
+blockquote p {
+  margin-top: .97em;
+  margin-bottom: 1.05em;
+}
+
+#tags + ul {
+  margin-bottom: .9em;
 }
